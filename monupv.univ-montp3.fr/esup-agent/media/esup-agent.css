@@ -1,0 +1,152 @@
+@CHARSET "UTF-8";
+
+div.esupAgent {
+	font-size: 12px;
+	padding-bottom: 14px;
+}
+
+div.esupAgent .portlet-menu {
+/*	background-image: url(images/banner_agent.png);
+	background-repeat: no-repeat;
+	background-position:top center;*/
+        background-image: linear-gradient(left, rgb(203, 216, 226), rgb(255, 255, 255) 0px, rgb(203, 216, 226), rgb(255, 255, 255) 100%, rgb(203, 216, 226));
+        background-image: -o-linear-gradient(left, rgb(203, 216, 226), rgb(255, 255, 255) 0px, rgb(203, 216, 226), rgb(255, 255, 255) 100%, rgb(203, 216, 226));
+        background-image: -moz-linear-gradient(left, rgb(203, 216, 226), rgb(255, 255, 255) 0px, rgb(203, 216, 226), rgb(255, 255, 255) 100%, rgb(203, 216, 226));
+        background-image: -webkit-linear-gradient(left, rgb(203, 216, 226), rgb(255, 255, 255) 0px, rgb(203, 216, 226), rgb(255, 255, 255) 100%, rgb(203, 216, 226));
+        background-image: -ms-linear-gradient(left, rgb(203, 216, 226), rgb(255, 255, 255) 0px, rgb(203, 216, 226), rgb(255, 255, 255) 100%, rgb(203, 216, 226));
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+div.esupAgent .portlet-menu-item input {
+	background-color: transparent;
+	border-style: none;
+	color: #000000;
+	cursor: pointer;
+	display: inline;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 5px 10px;
+	padding: 5px;
+}
+
+div.esupAgent .portlet-menu-item-selected input {
+	background: transparent;
+	border-style: none;
+	color: #000000;
+	cursor: pointer;
+	display: inline;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 5px 10px;
+	padding: 5px
+}
+
+div.esupAgent .portlet-section-header {
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+
+div.esupAgent .portlet-subsection-header {
+	background-color: #CBD8E2;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	vertical-align: bottom;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.esupAgent .portlet-font {
+	color: #65625c;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+div.esupAgent .portlet-form-label {
+	width: 10em;
+	text-align: left;
+	color: #65625c;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+}
+
+div.esupAgent .portlet-datatable-header {
+	background-color: #AF0417;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	vertical-align: bottom;
+	font-size: 12px;
+}
+
+div.esupAgent .portlet-table-header {
+	background-color: #CBD8E2;
+	margin-top: 0;
+	padding: 0;
+/*	text-align: center;	*/
+	vertical-align: bottom;
+	font-size: 12px;
+}
+
+div.esupAgent .esup-agent-portlet-display-block {
+	display: block;
+	margin-bottom: 20px;
+}
+
+div.esupAgent .esup-agent-portlet-display-list {
+	display: table-cell;
+	/*width: 250px;*/
+	padding: 5px;
+	/*background: #ffffff;*/
+}
+
+div.esupAgent .esup-agent-portlet-display-detail {
+	border-left: 1px solid #ffffff;
+	display: table-cell;
+	/*width: auto;*/
+	padding: 25px;
+	/*background: #ffffff;*/
+}
+
+div.esupAgent .esup-agent-warning {
+	border: 2px solid #cc0000;
+	padding: 10px;
+	font-weight: bold;
+	color: #cc0000;
+}
+
+div.esupAgent esup-agent-entete {
+	margin: 10px;
+	padding-left: 28px;
+	text-align: center;
+	vertical-align: bottom;
+	font-size: 14px;
+}
+
+div.esupAgent .selectedNode {
+	background-color: #B99E7E;
+	color: #ffffff;
+}
+
+.portlet-menu {
+background-color: none;
+}
+
+.portlet-menu-item {
+display: inline;
+}
+
+.portlet-menu-item-selected {
+display: inline;
+}

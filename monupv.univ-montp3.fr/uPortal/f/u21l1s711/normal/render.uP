@@ -1,0 +1,568 @@
+<!DOCTYPE html><html xmlns:upElemTitle="http://xml.apache.org/xalan/java/org.jasig.portal.security.xslt.XalanLayoutElementTitleHelper" xmlns:dlm="http://www.uportal.org/layout/dlm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="fr-FR" class="respondr"><head><title>Accueil | ENT</title><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"/><meta name="description" content="uPortal par JASIG : Le portail universitaire open source fait pour l'enseignement supérieur par l'enseignement supérieur"/><meta name="keywords" content="portail, uPortal, universitaire, enseignement supérieur, open source, libre de droits, l'entreprise, JA-SIG, JASIG, JASIG"/><link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css"/><link href="/ResourceServingWebapp/rs/normalize/2.1.2/normalize-2.1.2.min.css" rel="stylesheet" type="text/css"/><link href="/ResourceServingWebapp/rs/fontawesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/><link href="/ResourceServingWebapp/rs/bootstrap-plugins/accessibility/1.0.2/css/bootstrap-accessibility.min.css" rel="stylesheet" type="text/css"/><link href="/ResourceServingWebapp/rs/jqueryui/1.10.3/theme/smoothness/jquery-ui-1.10.3-smoothness.min.css" rel="stylesheet" type="text/css"/><link href="/uPortal/scripts/jstree/style.min.css" rel="stylesheet" type="text/css"/><link href="/esup-agent/media/esup-agent.css" rel="stylesheet" type="text/css"/><link href="/esup-mondossierweb/media/portlet.css" rel="stylesheet" type="text/css"/><link href="/esup-mondossierweb/media/commons.css" rel="stylesheet" type="text/css"/><link href="/esup-mondossierweb/media/custom.css" rel="stylesheet" type="text/css"/><script src="/ResourceServingWebapp/rs/modernizr/2.6.2/modernizr-2.6.2.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/jquery/1.10.2/jquery-1.10.2.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/jquery-migrate/jquery-migrate-1.2.1.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/jqueryui/1.10.3/jquery-ui-1.10.3.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/bootstrap/3.3.5/js/bootstrap.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/bootstrap-plugins/accessibility/1.0.2/js/bootstrap-accessibility.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/fluid/1.5.0/js/fluid-custom.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/underscore/1.5.2/underscore-1.5.2.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/backbone/1.1.0/backbone-1.1.0.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/jquery-plugins/noty/2.2.0/jquery.noty.packaged.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/datatables/1.9.4/media/js/jquery.dataTables.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/jquery-plugins/rating/1.0/bootstrap-rating-input.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/datatables/1.9.4/plugins/integration/bootstrap/3/dataTables.bootstrap.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/datatables/1.9.4/extras/column-filter-widgets/js/ColumnFilterWidgets.js" type="text/javascript"> </script><script src="/uPortal/scripts/jstree/jstree.min.js" type="text/javascript"> </script><script src="/uPortal/rs/conflict-resolution/js/resolve-conflicts.min.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-util.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-portlet-registry.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-entity-registry.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-portlet-browser.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-layout-draggable-manager.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-layout-gallery.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-fragment-permissions-manager.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-subscription-browser.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-layout-selector.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-skin-selector.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-tab-manager.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-layout-persistence.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-url-provider.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-layout-preferences.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-autocomplete.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-showHideToggle.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/entity-selector.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-parameter-editor.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/flyout-nav.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-translator.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-sidebar-improved.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-print-plugin.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-ga.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-rating-option.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-favorite.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/up-config-lightbox.js" type="text/javascript"> </script><script src="/uPortal/media/skins/common/javascript/uportal/iframe-autoheight-using-postMessage.js" type="text/javascript"> </script><link rel="shortcut icon" href="/uPortal/favicon.ico" type="image/x-icon"/><script type="text/javascript">
+    var up = up || {};
+    up.jQuery = jQuery.noConflict(true);
+    up.fluid = fluid;
+    fluid = null;
+    fluid_1_5 = null;
+    up._ = _.noConflict();
+    up._.templateSettings = {
+      interpolate : /{{=(.+?)}}/g,
+      evaluate    : /{{(.+?)}}/g,
+      escape: /{{-([\s\S]+?)}}/g
+    };
+    up.Backbone = Backbone.noConflict();
+
+    // fix console.log in IE8,9.  Though we don't commit to supporting these IE versions, this minor fix allows
+    // these browsers to work better.
+    if (!window.console) window.console = {};
+    if (!window.console.log) window.console.log = function() {};
+    if (!window.console.trace) window.console.trace = function() {};
+
+    (function($) {
+      $(function() {
+        var navMenuToggle = function() {
+          var menu = $(".portal-nav .menu"), menuToggle = $("#up-sticky-nav .menu-toggle");
+          // Toggle the menu visibility when the button is clicked.
+          menuToggle.click(function() {
+            //alert("Handler for .click() called.");
+            menu.toggleClass("show");
+            $('html, body').animate({
+                    scrollTop: 0
+               });
+            return false;
+          });
+          // Console for debugging.
+          console.log("menu", menu, "menuToggle", menuToggle);
+        }
+
+        navMenuToggle();
+      });
+      
+      up.jQuery(document).ready(function () {
+           var $ = up.jQuery;
+           // Toggle the off-canvas menu when the button is clicked.
+           $('[data-toggle="offcanvas"]').click(function () {
+                $('.row-offcanvas').toggleClass('active');
+           });
+      });
+      
+      $(document).ready(function() {
+          if (up.lightboxConfig) {
+            up.lightboxConfig.init();
+          }
+
+          // Unhide the portlet's options menu if there are option items to display.
+          $('div.portlet-options-menu').has('li').removeClass('hidden');
+
+          // If portlet chrome is configured to not show (shows on hover) and the portlet is not movable, the portlet chrome
+          // is hidden.  However if there are option items to display, allow the portlet chrome to show on hover.
+          $('div.hover-toolbar').filter('.hidden').has('li').removeClass('hidden');
+
+          // Attach behavior to the Move Portlet options menu
+          $('.portlet-options-menu .up-portlet-control.move').click(function() {
+             // If Move Portlet, unhide the grab handle and change the menu text
+             if ($(this).text() === $(this).attr('data-move-text')) {
+                $(this).parents('.up-portlet-titlebar').find('.grab-handle').removeClass('hidden');
+                $(this).text($(this).attr('data-cancel-move-text'));
+             } else {
+                // Else cancel the move by hiding the grab handle and reverting the text
+                $(this).parents('.up-portlet-titlebar').find('.grab-handle').addClass('hidden');
+                $(this).text($(this).attr('data-move-text'));
+             }
+          })
+      });
+
+    })(up.jQuery);
+  </script><script src="/uPortal/scripts/um3.js" type="text/javascript"></script><link rel="stylesheet" type="text/css" href="/uPortal/media/skins/respondr/upvm3.css"/><script src="/uPortal/scripts/respond-1.4.2.min.js" type="text/javascript"></script></head><body class="up dashboard portal fl-theme-mist"><div class="row-offcanvas row-offcanvas-left"><div id="up-notification"></div><div id="wrapper"><div id="region-page-top" class="container-fluid"><div class="row"><div class="col-sm-12"><section id="portlet_u26l1n3" class="up-portlet-wrapper dynamic-respondr-skin">
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Generate a CONFIG URL where appropriate -->
+
+</section></div></div></div><header class="portal-header" role="banner"><div id="up-sticky-nav" class="container-fluid"><div class="portal-global row"><a href="javascript:;" class="menu-toggle pull-left visible-xs" data-toggle="offcanvas"><i class="fa fa-align-justify"></i>Menu</a><div id="region-pre-header" class="portal-user"><section id="portlet_u17l1n13" class="up-portlet-wrapper logout-launcher-xs">
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://app.univ-montp3.fr/ent/garde/div/logout.html" title="D&eacute;connectez-vous et quitter le portail" alt="D&eacute;connexion" class="up-portlet-control hide-content portal-logout btn btn-link btn-xs visible-xs">D&eacute;connexion</a>
+</section></div></div></div><div class="container-fluid portal-header-main"><div class="row"><div id="region-header-left" class="col-sm-8 col-md-8 text-center"><section id="portlet_u26l1n9" class="up-portlet-wrapper portal-logo">
+<div class="hidden-xs">
+<div class="col-sm-4 col-md-3"><img alt=""
+      class="img-responsive"
+    src="https://monupv.univ-montp3.fr/images/logoUPVENT.png" /></div>
+
+<div
+      class="col-sm-8 col-md-9">
+<div id="ent">ENT<sup><i
+          class="fa fa-question-circle"
+      title="L'Environnement num&eacute;rique de travail (ENT) fournit &agrave; chaque usager exer&ccedil;ant une activit&eacute; au sein de l'universit&eacute; Paul-Val&eacute;ry Montpellier 3 un acc&egrave;s personnalis&eacute; et s&eacute;curis&eacute; &agrave; un ensemble de services en ligne."> </i></sup></div>
+
+<h1 id="upvm3">Universit&eacute; Paul-Val&eacute;ry - Montpellier&nbsp;3</h1>
+</div>
+</div>
+
+
+<div class="visible-xs">
+<h1 id="ent">ENT</h1>
+
+<h1 id="upvm3">Universit&eacute; Paul-Val&eacute;ry</h1>
+</div>
+
+
+</section></div><div id="region-header-right" class="col-sm-4 col-md-4 text-right"><section id="portlet_u17l1n7" class="up-portlet-wrapper portal-greeting">
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="user-name hidden-xs"><span class="hidden-xs">Bienvenue</span>&nbsp;Amine Atouil</div>
+</section><section id="portlet_u17l1n8" class="up-portlet-wrapper logout-launcher">
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://app.univ-montp3.fr/ent/garde/div/logout.html" title="D&eacute;connectez-vous et quitter le portail" alt="D&eacute;connexion" class="up-portlet-control hide-content portal-logout btn btn-link btn-xs hidden-xs"><img src="https://monupv.univ-montp3.fr/images/ico_quitter.png"/></a>
+</section><section id="portlet_u17l1n9" class="up-portlet-wrapper session-timeout">
+<!-- Session timeout portlet -->
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="Pluto_3_u17l1n9_84648_session-timeout-dlg" style="display: none;">
+    <div class="modal-header">
+        <h4 class="modal-title">Expiration de la session</h4>
+    </div>
+    <div class="modal-body">
+        <p>Votre session expire dans <span class='session-timeout-remaining'></span> secondes.</p>
+        <p>Souhaitez vous rester connecter ?</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default refresh-session" data-dismiss="modal">
+            Oui, laissez moi connect&eacute;
+        </button>
+        <button type="button" class="btn btn-primary logout">
+            Non, D&eacute;connectez moi
+        </button>
+    </div>
+</div></section></div></div></div><nav class="portal-nav"><div id="sidebar" class="sidebar-offcanvas container-fluid"><div id="portalNavigation" class="fl-widget"><div id="portalNavigationInner" class="fl-widget-inner header"><ul id="portalNavigationList" class="menu fl-tabs flc-reorderer-column list-group list-group-horizontal"><li id="portalNavigation_u21l1s711" class="portal-navigation first active fl-tabs-active locked     useflyout list-group-item"><a id="tabLink_u21l1s711" href="/uPortal/f/u21l1s711/normal/render.uP" title="Accueil" class="portal-navigation-link  "><span title="" class="portal-navigation-label ">Accueil</span><i class="fa fa-chevron-right visible-xs"></i></a><a id="portalSubnavigationToggle_u21l1s711" data-target="#" class="dropdown-toggle portal-navigation-dropdown" data-toggle="dropdown" role="button" aria-expanded="false" tabindex="0"><span class="caret"></span><span class="sr-only">Ouvrir le menu</span></a><ul class="dropdown-menu portal-subnav-list" aria-labelledby="portalSubnavigationToggle_u21l1s711" role="menu"><li id="uPfname_etuMail" class="portal-subnav first"><a title="Messagerie" href="/uPortal/f/u21l1s711/p/etuMail.u21l1n715/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Messagerie</span></a></li><li id="uPfname_esup-helpdesk" class="portal-subnav "><a title="Canal d'assistance esup-helpdesk pour les utilisateurs connectés" href="/uPortal/f/u21l1s711/p/esup-helpdesk.u21l1n716/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Demande d’intervention</span></a></li><li id="uPfname_tgScolarite" class="portal-subnav "><a title="Notes / Calendriers / Attestations" href="/uPortal/f/u21l1s711/p/tgScolarite.u21l1n719/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Notes / Calendriers / Attestations</span></a></li><li id="uPfname_epMoodle" class="portal-subnav "><a title="Cours en ligne" href="/uPortal/f/u21l1s711/p/epMoodle.u21l1n720/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Cours en ligne</span></a></li><li id="uPfname_tgSOSENT" class="portal-subnav last"><a title="Aide d'exploitation de L'ENT" href="/uPortal/f/u21l1s711/p/tgSOSENT.u21l1n722/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Assistance ENT</span></a></li></ul></li><li id="portalNavigation_u19l1s7" class="portal-navigation   locked     useflyout list-group-item"><a id="tabLink_u19l1s7" href="/uPortal/f/u19l1s7/normal/render.uP" title="Inscriptions" class="portal-navigation-link  "><span title="" class="portal-navigation-label ">Inscriptions</span><i class="fa fa-chevron-right visible-xs"></i></a><a id="portalSubnavigationToggle_u19l1s7" data-target="#" class="dropdown-toggle portal-navigation-dropdown" data-toggle="dropdown" role="button" aria-expanded="false" tabindex="0"><span class="caret"></span><span class="sr-only">Ouvrir le menu</span></a><ul class="dropdown-menu portal-subnav-list" aria-labelledby="portalSubnavigationToggle_u19l1s7" role="menu"><li id="uPfname_etuReinscAdmin" class="portal-subnav first"><a title="Réinscription Administrative des étudiants" href="/uPortal/f/u19l1s7/p/etuReinscAdmin.u19l1n9/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Réinscription administrative</span></a></li><li id="uPfname_etuC2iInsc" class="portal-subnav "><a title="Inscription Certificat Informatique et Internet" href="/uPortal/f/u19l1s7/p/etuC2iInsc.u19l1n10/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Choix du groupe de TD informatique</span></a></li><li id="uPfname_etuInscPeda" class="portal-subnav "><a title="Inscription pédagogique par le WEB" href="/uPortal/f/u19l1s7/p/etuInscPeda.u19l1n12/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Inscription pédagogique</span></a></li><li id="uPfname_etuConpere" class="portal-subnav "><a title="Contrat de réussite" href="/uPortal/f/u19l1s7/p/etuConpere.u19l1n13/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Contrat de réussite</span></a></li><li id="uPfname_etuInsSport" class="portal-subnav "><a title="Sports" href="/uPortal/f/u19l1s7/p/etuInsSport.u19l1n14/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Sports</span></a></li><li id="uPfname_epGroupes" class="portal-subnav last"><a title="Choix des groupes de travaux dirigés et pratiques" href="/uPortal/f/u19l1s7/p/epGroupes.u19l1n16/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Choix d’un groupe</span></a></li></ul></li><li id="portalNavigation_u19l1s17" class="portal-navigation   locked     useflyout list-group-item"><a id="tabLink_u19l1s17" href="/uPortal/f/u19l1s17/normal/render.uP" title="Scolarité et examens" class="portal-navigation-link  "><span title="" class="portal-navigation-label ">Scolarité et examens</span><i class="fa fa-chevron-right visible-xs"></i></a><a id="portalSubnavigationToggle_u19l1s17" data-target="#" class="dropdown-toggle portal-navigation-dropdown" data-toggle="dropdown" role="button" aria-expanded="false" tabindex="0"><span class="caret"></span><span class="sr-only">Ouvrir le menu</span></a><ul class="dropdown-menu portal-subnav-list" aria-labelledby="portalSubnavigationToggle_u19l1s17" role="menu"><li id="uPfname_etuConsult" class="portal-subnav first"><a title="Consultation par les étudiants de leur dossier administratif" href="/uPortal/f/u19l1s17/p/etuConsult.u19l1n19/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Dossier administratif</span></a></li><li id="uPfname_etuCertifScola" class="portal-subnav "><a title="Téléchargement par les étudiants de leurs certificats de scolarité au format PDF" href="/uPortal/f/u19l1s17/p/etuCertifScola.u19l1n20/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Certificat de scolarité</span></a></li><li id="uPfname_etuIAConsult" class="portal-subnav "><a title="Portail Info / Pieces justificatives" href="/uPortal/f/u19l1s17/p/etuIAConsult.u19l1n21/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Portail Info / Pieces justificatives</span></a></li><li id="uPfname_etuMondossierweb" class="portal-subnav "><a title="Mon dossier universitaire" href="/uPortal/f/u19l1s17/p/etuMondossierweb.u19l1n23/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Dossier universitaire</span></a></li><li id="uPfname_tgScolarite" class="portal-subnav "><a title="Notes / Calendriers / Attestations" href="/uPortal/f/u19l1s17/p/tgScolarite.u19l1n24/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Notes / Calendriers / Attestations</span></a></li><li id="uPfname_etuADE" class="portal-subnav "><a title="Consultation de votre emploi du temps" href="/uPortal/f/u19l1s17/p/etuADE.u19l1n25/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Emploi du temps</span></a></li><li id="uPfname_etuContrat" class="portal-subnav "><a title="Consultation par les étudiants de leur contrat pédagogique" href="/uPortal/f/u19l1s17/p/etuContrat.u19l1n27/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Contrat pédagogique</span></a></li><li id="uPfname_epPstage" class="portal-subnav "><a title="Gestion des stages" href="/uPortal/f/u19l1s17/p/epPstage.u19l1n28/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Stage</span></a></li><li id="uPfname_etuIAPJWEB" class="portal-subnav last"><a title="Pièces justificatives" href="/uPortal/f/u19l1s17/p/etuIAPJWEB.u19l1n29/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Pièces justificatives</span></a></li></ul></li><li id="portalNavigation_u19l1s30" class="portal-navigation   locked     useflyout list-group-item"><a id="tabLink_u19l1s30" href="/uPortal/f/u19l1s30/normal/render.uP" title="Outils pédagogiques" class="portal-navigation-link  "><span title="" class="portal-navigation-label ">Outils pédagogiques</span><i class="fa fa-chevron-right visible-xs"></i></a><a id="portalSubnavigationToggle_u19l1s30" data-target="#" class="dropdown-toggle portal-navigation-dropdown" data-toggle="dropdown" role="button" aria-expanded="false" tabindex="0"><span class="caret"></span><span class="sr-only">Ouvrir le menu</span></a><ul class="dropdown-menu portal-subnav-list" aria-labelledby="portalSubnavigationToggle_u19l1s30" role="menu"><li id="uPfname_epBiu" class="portal-subnav first"><a title="Bibliothèques universitaires et CDPS" href="/uPortal/f/u19l1s30/p/epBiu.u19l1n32/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Bibliothèques universitaires et CDPS</span></a></li><li id="uPfname_etuCopieursUM3" class="portal-subnav "><a title="Imprimer sur le campus" href="/uPortal/f/u19l1s30/p/etuCopieursUM3.u19l1n33/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Imprimer sur le campus</span></a></li><li id="uPfname_epInfoAntiPlagiat" class="portal-subnav "><a title="epInfoAntiPlagiat" href="/uPortal/f/u19l1s30/p/epInfoAntiPlagiat.u19l1n35/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Sensibilisation au plagiat</span></a></li><li id="uPfname_epMoodle" class="portal-subnav last"><a title="Cours en ligne" href="/uPortal/f/u19l1s30/p/epMoodle.u19l1n37/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Cours en ligne</span></a></li></ul></li><li id="portalNavigation_u19l1s38" class="portal-navigation   locked     useflyout list-group-item"><a id="tabLink_u19l1s38" href="/uPortal/f/u19l1s38/normal/render.uP" title="Outils collaboratifs" class="portal-navigation-link  "><span title="" class="portal-navigation-label ">Outils collaboratifs</span><i class="fa fa-chevron-right visible-xs"></i></a><a id="portalSubnavigationToggle_u19l1s38" data-target="#" class="dropdown-toggle portal-navigation-dropdown" data-toggle="dropdown" role="button" aria-expanded="false" tabindex="0"><span class="caret"></span><span class="sr-only">Ouvrir le menu</span></a><ul class="dropdown-menu portal-subnav-list" aria-labelledby="portalSubnavigationToggle_u19l1s38" role="menu"><li id="uPfname_etuMail" class="portal-subnav first"><a title="Messagerie" href="/uPortal/f/u19l1s38/p/etuMail.u19l1n40/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Messagerie</span></a></li><li id="uPfname_tgFileSender" class="portal-subnav "><a title="Transfert de fichiers" href="/uPortal/f/u19l1s38/p/tgFileSender.u19l1n41/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Transfert de fichiers</span></a></li><li id="uPfname_epListes" class="portal-subnav "><a title="Gestion des abonnements aux listes de diffusion" href="/uPortal/f/u19l1s38/p/epListes.u19l1n43/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Listes de diffusion</span></a></li><li id="uPfname_epRDV" class="portal-subnav "><a title="Rendez-vous" href="/uPortal/f/u19l1s38/p/epRDV.u19l1n44/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Rendez-vous</span></a></li><li id="uPfname_epReunion" class="portal-subnav last"><a title="Planifier une réunion" href="/uPortal/f/u19l1s38/p/epReunion.u19l1n46/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Planifier une réunion</span></a></li></ul></li><li id="portalNavigation_u19l1s47" class="portal-navigation last  locked     useflyout list-group-item"><a id="tabLink_u19l1s47" href="/uPortal/f/u19l1s47/normal/render.uP" title="Assistance" class="portal-navigation-link  "><span title="" class="portal-navigation-label ">Assistance</span><i class="fa fa-chevron-right visible-xs"></i></a><a id="portalSubnavigationToggle_u19l1s47" data-target="#" class="dropdown-toggle portal-navigation-dropdown" data-toggle="dropdown" role="button" aria-expanded="false" tabindex="0"><span class="caret"></span><span class="sr-only">Ouvrir le menu</span></a><ul class="dropdown-menu portal-subnav-list" aria-labelledby="portalSubnavigationToggle_u19l1s47" role="menu"><li id="uPfname_esup-helpdesk" class="portal-subnav first"><a title="Canal d'assistance esup-helpdesk pour les utilisateurs connectés" href="/uPortal/f/u19l1s47/p/esup-helpdesk.u19l1n49/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Demande d’intervention</span></a></li><li id="uPfname_tgSOSCMS" class="portal-subnav "><a title="Assistance carte multiservice" href="/uPortal/f/u19l1s47/p/tgSOSCMS.u19l1n50/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Assistance carte multiservice</span></a></li><li id="uPfname_epGestionCompte" class="portal-subnav "><a title="Gestion de mon identifiant" href="/uPortal/f/u19l1s47/p/epGestionCompte.u19l1n52/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Gestion de mon identifiant</span></a></li><li id="uPfname_etuFractureNum" class="portal-subnav "><a title="Prêt matériel" href="/uPortal/f/u19l1s47/p/etuFractureNum.u19l1n53/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Prêt matériel</span></a></li><li id="uPfname_tgSOSENT" class="portal-subnav last"><a title="Aide d'exploitation de L'ENT" href="/uPortal/f/u19l1s47/p/tgSOSENT.u19l1n55/max/render.uP?pCp" class="portal-subnav-link"><span class="portal-subnav-label">Assistance ENT</span></a></li></ul></li></ul></div></div></div></nav></header><div id="portalPageBody" class="portal-content" role="main"><div class="container-fluid"><div class="row"><div class="col-md-12"><div class="row"><div id="portalPageBodyMessage" class="col-md-12"></div></div><div id="portalPageBodyColumns" class="row"><div id="column_u21l1s712" class="portal-page-column column-1 col-md-4 movable deletable editable canAddChildren "><div id="inner-column_u21l1s712" class="portal-page-column-inner"><section id="portlet_u21l1n715" class="up-portlet-wrapper etuMail movable     "><div class="modal fade" id="ratePortletModalu21l1n715" tabindex="-1" role="dialog" aria-labelledby="RatingModal" aria-hidden="true" data-title="Noter Messagerie étudiante" data-close.button.label="Fermer" data-save.button.label="Sauver et Fermer" data-geturl="/uPortal/p/portletmarketplace.ctf1/normal/getRating.resource.uP?pP_portletFName=etuMail" data-saveurl="/uPortal/p/portletmarketplace.ctf1/normal/saveRating.resource.uP?pP_portletFName=etuMail" data-get.rating.unsucessful="Votre note précédente sur cette portlet n'a pas pu être retrouvée" data-rating.save.successful="Merci de votre évaluation" data-rating.save.unsuccessful="Votre évaluation n'a pas été prise en compte. Merci de retenter l'opération !" data-rating.instructions.unrated="Vous n'avez pas encore noté Messagerie étudiante. Partagez une évaualtion si vous le souhaitez." data-rating.instructions.rated="Vous avez déjà noté Messagerie étudiante. Vous pouvez mettre à jour votre note si vous le souhaitez."></div><script type="text/javascript">
+            (function($) {
+                $( document ).ready(function() {
+                    $('#ratePortletModalu21l1n715').createRatingModal();
+                    $('#ratePortletModalu21l1n715').find('input').rating();
+                });
+            })(up.jQuery);
+        </script><div class="up-portlet-wrapper-inner"><div id="toolbar_u21l1n715" class="fl-widget-titlebar up-portlet-titlebar up-standard-chrome round-top"><h2 class="portlet-title round-top"><a id="u21l1n715" href="/uPortal/f/u21l1s711/p/etuMail.u21l1n715/max/render.uP?pCp">Messagerie</a><div class="portlet-controls"><div class="grab-handle hidden"><i class="fa fa-arrows"></i></div><div class="portlet-options-menu btn-group hidden"><a class="btn btn-link dropdown-toggle" data-toggle="dropdown" title="Options" href="javascript:void(0);">Options<span class="caret"></span></a><ul class="dropdown-menu" style="right: 0; left: auto;"><li><a href="#" onclick="addPorletAccueil('u21l1s711', 56);" class="add_to_accueil"><span>
+                    			Ajouter à mon accueil
+               		 	</span></a></li><li><a id="movePortlet_u21l1n715" title="Déplacer cette portlet" href="javascript:void(0);" class="up-portlet-control move" data-move-text="Déplacer cette portlet" data-cancel-move-text="Annuler déplacement portlet">Déplacer cette portlet</a></li><li><a href="/uPortal/f/u21l1s711/p/etuMail.u21l1n715/max/render.uP?pCp" title="Mettre cette portlet en mode &quot;maximisé&quot;" class="up-portlet-control focus">Ouvrir</a></li></ul></div></div></h2></div><div id="portletContent_u21l1n715" class="fl-widget-content fl-fix up-portlet-content-wrapper round-bottom"><div class="up-portlet-content-wrapper-inner">
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<iframe src="https://app.univ-montp3.fr/ent/html/mail_etu.html" frameBorder="0" 
+  
+    
+  
+    
+  
+    
+  
+    width="100%" 
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    height="600">
+    This browser does not support inline frames.<br/> 
+    <a href="https://app.univ-montp3.fr/ent/html/mail_etu.html" target="_blank">Click here to view content</a> in a separate window.
+</iframe>
+</div></div></div></section><section id="portlet_u21l1n716" class="up-portlet-wrapper esup-helpdesk movable     "><div class="modal fade" id="ratePortletModalu21l1n716" tabindex="-1" role="dialog" aria-labelledby="RatingModal" aria-hidden="true" data-title="Noter Demande d’intervention" data-close.button.label="Fermer" data-save.button.label="Sauver et Fermer" data-geturl="/uPortal/p/portletmarketplace.ctf1/normal/getRating.resource.uP?pP_portletFName=esup-helpdesk" data-saveurl="/uPortal/p/portletmarketplace.ctf1/normal/saveRating.resource.uP?pP_portletFName=esup-helpdesk" data-get.rating.unsucessful="Votre note précédente sur cette portlet n'a pas pu être retrouvée" data-rating.save.successful="Merci de votre évaluation" data-rating.save.unsuccessful="Votre évaluation n'a pas été prise en compte. Merci de retenter l'opération !" data-rating.instructions.unrated="Vous n'avez pas encore noté Demande d’intervention. Partagez une évaualtion si vous le souhaitez." data-rating.instructions.rated="Vous avez déjà noté Demande d’intervention. Vous pouvez mettre à jour votre note si vous le souhaitez."></div><script type="text/javascript">
+            (function($) {
+                $( document ).ready(function() {
+                    $('#ratePortletModalu21l1n716').createRatingModal();
+                    $('#ratePortletModalu21l1n716').find('input').rating();
+                });
+            })(up.jQuery);
+        </script><div class="up-portlet-wrapper-inner"><div id="toolbar_u21l1n716" class="fl-widget-titlebar up-portlet-titlebar up-standard-chrome round-top"><h2 class="portlet-title round-top"><a id="u21l1n716" href="/uPortal/f/u21l1s711/p/esup-helpdesk.u21l1n716/max/render.uP?pCp">Demande d’intervention</a><div class="portlet-controls"><div class="grab-handle hidden"><i class="fa fa-arrows"></i></div><div class="portlet-options-menu btn-group hidden"><a class="btn btn-link dropdown-toggle" data-toggle="dropdown" title="Options" href="javascript:void(0);">Options<span class="caret"></span></a><ul class="dropdown-menu" style="right: 0; left: auto;"><li><a href="#" onclick="addPorletAccueil('u21l1s711', 48);" class="add_to_accueil"><span>
+                    			Ajouter à mon accueil
+               		 	</span></a></li><li><a id="movePortlet_u21l1n716" title="Déplacer cette portlet" href="javascript:void(0);" class="up-portlet-control move" data-move-text="Déplacer cette portlet" data-cancel-move-text="Annuler déplacement portlet">Déplacer cette portlet</a></li><li><a href="/uPortal/f/u21l1s711/p/esup-helpdesk.u21l1n716/max/render.uP?pCp" title="Mettre cette portlet en mode &quot;maximisé&quot;" class="up-portlet-control focus">Ouvrir</a></li></ul></div></div></h2></div><div id="portletContent_u21l1n716" class="fl-widget-content fl-fix up-portlet-content-wrapper round-bottom"><div class="up-portlet-content-wrapper-inner">
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<iframe src="https://app.univ-montp3.fr/esup-helpdesk/stylesheets/cas.faces" frameBorder="0" 
+  
+    
+  
+    
+  
+    
+  
+    width="100%" 
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    height="600">
+    This browser does not support inline frames.<br/> 
+    <a href="https://app.univ-montp3.fr/esup-helpdesk/stylesheets/cas.faces" target="_blank">Click here to view content</a> in a separate window.
+</iframe>
+</div></div></div></section></div></div><div id="column_u21l1s717" class="portal-page-column column-2 col-md-4 movable deletable editable canAddChildren "><div id="inner-column_u21l1s717" class="portal-page-column-inner"><section id="portlet_u21l1n719" class="up-portlet-wrapper tgScolarite movable deletable    "><div class="modal fade" id="ratePortletModalu21l1n719" tabindex="-1" role="dialog" aria-labelledby="RatingModal" aria-hidden="true" data-title="Noter Notes / Calendriers / Attestations" data-close.button.label="Fermer" data-save.button.label="Sauver et Fermer" data-geturl="/uPortal/p/portletmarketplace.ctf1/normal/getRating.resource.uP?pP_portletFName=tgScolarite" data-saveurl="/uPortal/p/portletmarketplace.ctf1/normal/saveRating.resource.uP?pP_portletFName=tgScolarite" data-get.rating.unsucessful="Votre note précédente sur cette portlet n'a pas pu être retrouvée" data-rating.save.successful="Merci de votre évaluation" data-rating.save.unsuccessful="Votre évaluation n'a pas été prise en compte. Merci de retenter l'opération !" data-rating.instructions.unrated="Vous n'avez pas encore noté Notes / Calendriers / Attestations. Partagez une évaualtion si vous le souhaitez." data-rating.instructions.rated="Vous avez déjà noté Notes / Calendriers / Attestations. Vous pouvez mettre à jour votre note si vous le souhaitez."></div><script type="text/javascript">
+            (function($) {
+                $( document ).ready(function() {
+                    $('#ratePortletModalu21l1n719').createRatingModal();
+                    $('#ratePortletModalu21l1n719').find('input').rating();
+                });
+            })(up.jQuery);
+        </script><div class="up-portlet-wrapper-inner"><div id="toolbar_u21l1n719" class="fl-widget-titlebar up-portlet-titlebar up-standard-chrome round-top"><h2 class="portlet-title round-top"><a id="u21l1n719" href="/uPortal/f/u21l1s711/p/tgScolarite.u21l1n719/max/render.uP?pCp">Notes / Calendriers / Attestations</a><div class="portlet-controls"><div class="grab-handle hidden"><i class="fa fa-arrows"></i></div><div class="portlet-options-menu btn-group hidden"><a class="btn btn-link dropdown-toggle" data-toggle="dropdown" title="Options" href="javascript:void(0);">Options<span class="caret"></span></a><ul class="dropdown-menu" style="right: 0; left: auto;"><li><a href="#" onclick="addPorletAccueil('u21l1s711', 246);" class="add_to_accueil"><span>
+                    			Ajouter à mon accueil
+               		 	</span></a></li><li><a id="movePortlet_u21l1n719" title="Déplacer cette portlet" href="javascript:void(0);" class="up-portlet-control move" data-move-text="Déplacer cette portlet" data-cancel-move-text="Annuler déplacement portlet">Déplacer cette portlet</a></li><li><a id="removePortlet_u21l1n719" title="Etes-vous sûr de vouloir supprimer cette portlet ?" href="javascript:void(0);" class="up-portlet-control remove">Supprimer</a></li><li><a href="/uPortal/f/u21l1s711/p/tgScolarite.u21l1n719/max/render.uP?pCp" title="Mettre cette portlet en mode &quot;maximisé&quot;" class="up-portlet-control focus">Ouvrir</a></li></ul></div></div></h2></div><div id="portletContent_u21l1n719" class="fl-widget-content fl-fix up-portlet-content-wrapper round-bottom"><div class="up-portlet-content-wrapper-inner">
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<iframe src="https://scolarite.univ-montp3.fr" frameBorder="0" 
+  
+    
+  
+    
+  
+    
+  
+    width="100%" 
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    height="600">
+    This browser does not support inline frames.<br/> 
+    <a href="https://scolarite.univ-montp3.fr" target="_blank">Click here to view content</a> in a separate window.
+</iframe>
+</div></div></div></section><section id="portlet_u21l1n720" class="up-portlet-wrapper epMoodle movable     "><div class="modal fade" id="ratePortletModalu21l1n720" tabindex="-1" role="dialog" aria-labelledby="RatingModal" aria-hidden="true" data-title="Noter Cours en ligne" data-close.button.label="Fermer" data-save.button.label="Sauver et Fermer" data-geturl="/uPortal/p/portletmarketplace.ctf1/normal/getRating.resource.uP?pP_portletFName=epMoodle" data-saveurl="/uPortal/p/portletmarketplace.ctf1/normal/saveRating.resource.uP?pP_portletFName=epMoodle" data-get.rating.unsucessful="Votre note précédente sur cette portlet n'a pas pu être retrouvée" data-rating.save.successful="Merci de votre évaluation" data-rating.save.unsuccessful="Votre évaluation n'a pas été prise en compte. Merci de retenter l'opération !" data-rating.instructions.unrated="Vous n'avez pas encore noté Cours en ligne. Partagez une évaualtion si vous le souhaitez." data-rating.instructions.rated="Vous avez déjà noté Cours en ligne. Vous pouvez mettre à jour votre note si vous le souhaitez."></div><script type="text/javascript">
+            (function($) {
+                $( document ).ready(function() {
+                    $('#ratePortletModalu21l1n720').createRatingModal();
+                    $('#ratePortletModalu21l1n720').find('input').rating();
+                });
+            })(up.jQuery);
+        </script><div class="up-portlet-wrapper-inner"><div id="toolbar_u21l1n720" class="fl-widget-titlebar up-portlet-titlebar up-standard-chrome round-top"><h2 class="portlet-title round-top"><a id="u21l1n720" href="/uPortal/f/u21l1s711/p/epMoodle.u21l1n720/max/render.uP?pCp">Cours en ligne</a><div class="portlet-controls"><div class="grab-handle hidden"><i class="fa fa-arrows"></i></div><div class="portlet-options-menu btn-group hidden"><a class="btn btn-link dropdown-toggle" data-toggle="dropdown" title="Options" href="javascript:void(0);">Options<span class="caret"></span></a><ul class="dropdown-menu" style="right: 0; left: auto;"><li><a href="#" onclick="addPorletAccueil('u21l1s711', 95);" class="add_to_accueil"><span>
+                    			Ajouter à mon accueil
+               		 	</span></a></li><li><a id="movePortlet_u21l1n720" title="Déplacer cette portlet" href="javascript:void(0);" class="up-portlet-control move" data-move-text="Déplacer cette portlet" data-cancel-move-text="Annuler déplacement portlet">Déplacer cette portlet</a></li><li><a href="/uPortal/f/u21l1s711/p/epMoodle.u21l1n720/max/render.uP?pCp" title="Mettre cette portlet en mode &quot;maximisé&quot;" class="up-portlet-control focus">Ouvrir</a></li></ul></div></div></h2></div><div id="portletContent_u21l1n720" class="fl-widget-content fl-fix up-portlet-content-wrapper round-bottom"><div class="up-portlet-content-wrapper-inner">
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<iframe src="https://app.univ-montp3.fr/ent/garde/div/moodle/index.html" frameBorder="0" 
+  
+    
+  
+    
+  
+    
+  
+    width="100%" 
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    height="600">
+    This browser does not support inline frames.<br/> 
+    <a href="https://app.univ-montp3.fr/ent/garde/div/moodle/index.html" target="_blank">Click here to view content</a> in a separate window.
+</iframe>
+</div></div></div></section></div></div><div id="column_u21l1s721" class="portal-page-column column-3 col-md-4 movable deletable editable canAddChildren "><div id="inner-column_u21l1s721" class="portal-page-column-inner"><section id="portlet_u21l1n722" class="up-portlet-wrapper tgSOSENT movable deletable    "><div class="modal fade" id="ratePortletModalu21l1n722" tabindex="-1" role="dialog" aria-labelledby="RatingModal" aria-hidden="true" data-title="Noter Assistance ENT" data-close.button.label="Fermer" data-save.button.label="Sauver et Fermer" data-geturl="/uPortal/p/portletmarketplace.ctf1/normal/getRating.resource.uP?pP_portletFName=tgSOSENT" data-saveurl="/uPortal/p/portletmarketplace.ctf1/normal/saveRating.resource.uP?pP_portletFName=tgSOSENT" data-get.rating.unsucessful="Votre note précédente sur cette portlet n'a pas pu être retrouvée" data-rating.save.successful="Merci de votre évaluation" data-rating.save.unsuccessful="Votre évaluation n'a pas été prise en compte. Merci de retenter l'opération !" data-rating.instructions.unrated="Vous n'avez pas encore noté Assistance ENT. Partagez une évaualtion si vous le souhaitez." data-rating.instructions.rated="Vous avez déjà noté Assistance ENT. Vous pouvez mettre à jour votre note si vous le souhaitez."></div><script type="text/javascript">
+            (function($) {
+                $( document ).ready(function() {
+                    $('#ratePortletModalu21l1n722').createRatingModal();
+                    $('#ratePortletModalu21l1n722').find('input').rating();
+                });
+            })(up.jQuery);
+        </script><div class="up-portlet-wrapper-inner"><div id="toolbar_u21l1n722" class="fl-widget-titlebar up-portlet-titlebar up-standard-chrome round-top"><h2 class="portlet-title round-top"><a id="u21l1n722" href="/uPortal/f/u21l1s711/p/tgSOSENT.u21l1n722/max/render.uP?pCp">Assistance ENT</a><div class="portlet-controls"><div class="grab-handle hidden"><i class="fa fa-arrows"></i></div><div class="portlet-options-menu btn-group hidden"><a class="btn btn-link dropdown-toggle" data-toggle="dropdown" title="Options" href="javascript:void(0);">Options<span class="caret"></span></a><ul class="dropdown-menu" style="right: 0; left: auto;"><li><a href="#" onclick="addPorletAccueil('u21l1s711', 54);" class="add_to_accueil"><span>
+                    			Ajouter à mon accueil
+               		 	</span></a></li><li><a id="movePortlet_u21l1n722" title="Déplacer cette portlet" href="javascript:void(0);" class="up-portlet-control move" data-move-text="Déplacer cette portlet" data-cancel-move-text="Annuler déplacement portlet">Déplacer cette portlet</a></li><li><a id="removePortlet_u21l1n722" title="Etes-vous sûr de vouloir supprimer cette portlet ?" href="javascript:void(0);" class="up-portlet-control remove">Supprimer</a></li><li><a href="/uPortal/f/u21l1s711/p/tgSOSENT.u21l1n722/max/render.uP?pCp" title="Mettre cette portlet en mode &quot;maximisé&quot;" class="up-portlet-control focus">Ouvrir</a></li></ul></div></div></h2></div><div id="portletContent_u21l1n722" class="fl-widget-content fl-fix up-portlet-content-wrapper round-bottom"><div class="up-portlet-content-wrapper-inner">
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<iframe src="https://app.univ-montp3.fr/ent/html/faqent.html" frameBorder="0" 
+  
+    
+  
+    
+  
+    
+  
+    width="100%" 
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    height="600">
+    This browser does not support inline frames.<br/> 
+    <a href="https://app.univ-montp3.fr/ent/html/faqent.html" target="_blank">Click here to view content</a> in a separate window.
+</iframe>
+</div></div></div></section></div></div></div></div></div></div></div><footer id="region-footer-first"><div class="container-fluid"><a name="sitemap"></a><div class="row"><div class="col-md-3"><h4><a href="/uPortal/f/u21l1s711/normal/render.uP" class="">Accueil</a></h4><ul><li><a href="/uPortal/f/u21l1s711/p/etuMail.u21l1n715/max/render.uP">Messagerie</a></li><li><a href="/uPortal/f/u21l1s711/p/esup-helpdesk.u21l1n716/max/render.uP">Demande d’intervention</a></li><li><a href="/uPortal/f/u21l1s711/p/tgScolarite.u21l1n719/max/render.uP">Notes / Calendriers / Attestations</a></li><li><a href="/uPortal/f/u21l1s711/p/epMoodle.u21l1n720/max/render.uP">Cours en ligne</a></li><li><a href="/uPortal/f/u21l1s711/p/tgSOSENT.u21l1n722/max/render.uP">Assistance ENT</a></li></ul></div><div class="col-md-3"><h4><a href="/uPortal/f/u19l1s7/normal/render.uP" class="">Inscriptions</a></h4><ul><li><a href="/uPortal/f/u19l1s7/p/etuReinscAdmin.u19l1n9/max/render.uP">Réinscription administrative</a></li><li><a href="/uPortal/f/u19l1s7/p/etuC2iInsc.u19l1n10/max/render.uP">Choix du groupe de TD informatique</a></li><li><a href="/uPortal/f/u19l1s7/p/etuInscPeda.u19l1n12/max/render.uP">Inscription pédagogique</a></li><li><a href="/uPortal/f/u19l1s7/p/etuConpere.u19l1n13/max/render.uP">Contrat de réussite</a></li><li><a href="/uPortal/f/u19l1s7/p/etuInsSport.u19l1n14/max/render.uP">Sports</a></li><li><a href="/uPortal/f/u19l1s7/p/epGroupes.u19l1n16/max/render.uP">Choix d’un groupe</a></li></ul></div><div class="col-md-3"><h4><a href="/uPortal/f/u19l1s17/normal/render.uP" class="">Scolarité et examens</a></h4><ul><li><a href="/uPortal/f/u19l1s17/p/etuConsult.u19l1n19/max/render.uP">Dossier administratif</a></li><li><a href="/uPortal/f/u19l1s17/p/etuCertifScola.u19l1n20/max/render.uP">Certificat de scolarité</a></li><li><a href="/uPortal/f/u19l1s17/p/etuIAConsult.u19l1n21/max/render.uP">Portail Info / Pieces justificatives</a></li><li><a href="/uPortal/f/u19l1s17/p/etuMondossierweb.u19l1n23/max/render.uP">Dossier universitaire</a></li><li><a href="/uPortal/f/u19l1s17/p/tgScolarite.u19l1n24/max/render.uP">Notes / Calendriers / Attestations</a></li><li><a href="/uPortal/f/u19l1s17/p/etuADE.u19l1n25/max/render.uP">Emploi du temps</a></li><li><a href="/uPortal/f/u19l1s17/p/etuContrat.u19l1n27/max/render.uP">Contrat pédagogique</a></li><li><a href="/uPortal/f/u19l1s17/p/epPstage.u19l1n28/max/render.uP">Stage</a></li><li><a href="/uPortal/f/u19l1s17/p/etuIAPJWEB.u19l1n29/max/render.uP">Pièces justificatives</a></li></ul></div><div class="col-md-3"><h4><a href="/uPortal/f/u19l1s30/normal/render.uP" class="">Outils pédagogiques</a></h4><ul><li><a href="/uPortal/f/u19l1s30/p/epBiu.u19l1n32/max/render.uP">Bibliothèques universitaires et CDPS</a></li><li><a href="/uPortal/f/u19l1s30/p/etuCopieursUM3.u19l1n33/max/render.uP">Imprimer sur le campus</a></li><li><a href="/uPortal/f/u19l1s30/p/epInfoAntiPlagiat.u19l1n35/max/render.uP">Sensibilisation au plagiat</a></li><li><a href="/uPortal/f/u19l1s30/p/epMoodle.u19l1n37/max/render.uP">Cours en ligne</a></li></ul></div></div><div class="row"><div class="col-md-3"><h4><a href="/uPortal/f/u19l1s38/normal/render.uP" class="">Outils collaboratifs</a></h4><ul><li><a href="/uPortal/f/u19l1s38/p/etuMail.u19l1n40/max/render.uP">Messagerie</a></li><li><a href="/uPortal/f/u19l1s38/p/tgFileSender.u19l1n41/max/render.uP">Transfert de fichiers</a></li><li><a href="/uPortal/f/u19l1s38/p/epListes.u19l1n43/max/render.uP">Listes de diffusion</a></li><li><a href="/uPortal/f/u19l1s38/p/epRDV.u19l1n44/max/render.uP">Rendez-vous</a></li><li><a href="/uPortal/f/u19l1s38/p/epReunion.u19l1n46/max/render.uP">Planifier une réunion</a></li></ul></div><div class="col-md-3"><h4><a href="/uPortal/f/u19l1s47/normal/render.uP" class="">Assistance</a></h4><ul><li><a href="/uPortal/f/u19l1s47/p/esup-helpdesk.u19l1n49/max/render.uP">Demande d’intervention</a></li><li><a href="/uPortal/f/u19l1s47/p/tgSOSCMS.u19l1n50/max/render.uP">Assistance carte multiservice</a></li><li><a href="/uPortal/f/u19l1s47/p/epGestionCompte.u19l1n52/max/render.uP">Gestion de mon identifiant</a></li><li><a href="/uPortal/f/u19l1s47/p/etuFractureNum.u19l1n53/max/render.uP">Prêt matériel</a></li><li><a href="/uPortal/f/u19l1s47/p/tgSOSENT.u19l1n55/max/render.uP">Assistance ENT</a></li></ul></div></div></div></footer><footer id="region-footer-second" role="contentinfo"><section id="portlet_u21l1n710" class="up-portlet-wrapper legal-footer">
+
+            <div class="container-fluid legal-footer">
+                <div>
+                    <a href="http://www.apereo.org/uportal" target="_blank">Site conçu via uPortal</a>, un projet open-source de <a href="http://www.apereo.org" title="Apereo.org - Serving the Academic Mission">Apereo</a>
+                </div>
+                <div>
+                    <a href="http://www.apereo.org/" target="_blank">Apereo.org</a> |
+                    <a href="http://www.apereo.org/uportal" target="_blank">uPortal</a> |
+                    <a href="https://www.esup-portail.org/" target="_blank">EsupPortail</a> |
+                    <a href="http://wiki.jasig.org/display/UPM40/Accessibility" target="_blank">Accessibilité</a>
+                </div>
+                <div>
+                    <a href="http://www.apereo.org/uportal/about/license" title="uPortal" target="_blank">uPortal</a>
+                    est sous license
+                    <a href="http://www.apache.org/licenses/LICENSE-2.0" title="Apache License, Version 2.0" target="_blank">Apache License, Version 2.0</a>
+                    approuvée par l'Open Source Initiative (OSI), une license 
+                    <a href="http://www.opensource.org/docs/osd" title="OSI-certified" target="_blank">certifiée OSI</a>
+                    ("ouverte") et
+                    <a href="http://www.gnu.org/licenses/license-list.html" title="Gnu/FSF-recognized" target="_blank">Gnu/FSF-recognized</a>
+                    ("libre")
+                </div>
+            </div>
+        </section></footer><div id="config-lightbox" class="modal fade"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button><h4 class="modal-title">Configuration</h4></div><div class="modal-body"><div class="loading"></div><div class="modal-body-content"></div></div></div></div></div></div><div id="portalDropWarning" class="drop-warning" style="display:none;"><p>Cette portlet ne peut pas être déplacée ici. La portlet ci-dessous est verrouillée.</p></div><script type="text/javascript">
+    
+        up.jQuery(document).ready(function() {
+        
+            if(window.location.search.indexOf('redirectToDefault=true') > 0) {
+              up.jQuery('#up-notification').noty({text: 'La page demandée est introuvable, aussi nous vous avons redirigé ici.', type: 'information'});
+            }
+
+            
+            var options = {
+                tabContext: 'header',
+                numberOfPortlets: '0',
+                portalContext: '/uPortal',
+                mediaPath: '/uPortal/media/skins/respondr',
+                currentSkin: 'upvm3',
+                subscriptionsSupported: 'true',
+                layoutPersistenceUrl: '/uPortal/api/layout',
+                channelRegistryUrl: '/uPortal/api/portletList',
+                subscribableTabUrl: '/uPortal/api/subscribableTabs.json',
+                columnWidthClassPattern: 'col-md-',
+                columnWidthClassFunction: function(column) {
+                    return 'col-md-' + Math.round(column / 8.3333);
+                },
+                messages: {
+                    confirmRemoveTab: 'Etes-vous sûr de vouloir supprimer cet onglet ?',
+                    confirmRemovePortlet: 'Etes-vous sûr de vouloir supprimer cette portlet ?',
+                    movePortletError: 'This change was disallowed by the server.  The portlet will return to its original position.  Reload the page now?',
+                    addTabLabel: 'Mon onglet',
+                    column: 'Colonne',
+                    columns: 'Colonnes',
+                    fullWidth: 'pleine largeur',
+                    narrowWide: 'petite, large',
+                    even: 'même taille',
+                    wideNarrow: 'Large, petite',
+                    narrowWideNarrow: 'petite, large, petite',
+                    searchForStuff: 'Rechercher un service',
+                    allCategories: 'Toutes (catégories)',
+                    persistenceError: 'Échec de la sauvegarde des modifications de la mise en page.'
+                }
+            };
+            var layoutPreferences = up.LayoutPreferences("body", options);
+            // For the portlet/Respondr version of the gallery control, 
+            // we must open it ourselves (if present) when the page loads.
+            if (layoutPreferences.components.gallery) {
+                layoutPreferences.components.gallery.openGallery();
+            }
+            
+        });
+    </script><script type="text/javascript">
+  		var _paq = _paq || [];
+  		/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  		_paq.push(['trackPageView']);
+  		_paq.push(['enableLinkTracking']);
+  		(function() {
+    			var u="//piwik2.univ-montp3.fr/";
+    			_paq.push(['setTrackerUrl', u+'piwik.php']);
+    			_paq.push(['setSiteId', '33']);
+    			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  		})();
+		</script><script type="text/javascript">
+                up.analytics = up.analytics || {};
+                up.analytics.host = 'monupv.univ-montp3.fr';
+                up.analytics.portletData = {"3_u17l1n9_84648":{"fname":"session-timeout","executionTimeNano":798568},"95_u21l1n720_84648":{"fname":"epMoodle","executionTimeNano":225302},"246_u21l1n719_84648":{"fname":"tgScolarite","executionTimeNano":214387},"18_u17l1n7_84648":{"fname":"portal-greeting","executionTimeNano":859522},"82_u17l1n13_84648":{"fname":"logout-launcher-xs","executionTimeNano":936273},"23_u26l1n3_84648":{"fname":"dynamic-respondr-skin","executionTimeNano":1322456},"17_u21l1n710_84648":{"fname":"legal-footer","executionTimeNano":195804},"56_u21l1n715_84648":{"fname":"etuMail","executionTimeNano":780560},"1_u26l1n9_84648":{"fname":"portal-logo","executionTimeNano":395328},"39_u17l1n8_84648":{"fname":"logout-launcher","executionTimeNano":674508},"54_u21l1n722_84648":{"fname":"tgSOSENT","executionTimeNano":281409},"48_u21l1n716_84648":{"fname":"esup-helpdesk","executionTimeNano":291488}};
+                up.analytics.pageData = {"urlState":"NORMAL","executionTimeNano":25323937,"tab":{"id":1,"fragmentName":"all-lo","tabName":"Accueil","displayString":"Accueil (all-lo)"}};
+            </script></div></body></html>

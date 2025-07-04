@@ -1,0 +1,1 @@
+No Content: https://app.univ-montp3.fr/esup-helpdesk/media/postMessage-resize-iframe-in-parent.js
