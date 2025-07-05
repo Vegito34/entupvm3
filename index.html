@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<title>Assistance ENT - Université Paul Valéry Montpellier 3</title>
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style_faq2.css">
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="assets/js/effet_faq2.js"></script>
+<script type="text/javascript" src="assets/js/postMessage-resize-iframe-in-parent.js"></script>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-md-12">
+				<h1>Assistance ENT</h1>
+				<p>Afin de vous aider, une foire aux questions sur l'ENT de
+					l'Université Paul Valéry Montpellier est à votre disposition, elle
+					recense les questions les plus fréquemment posées ainsi que leurs
+					réponses.</p>
+			</div>
+			<div id="myModal" class="modal fade">
+				<div class="modal-dialog">
+					<div class="modal-content">							
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-md-4">
+				<div id="etudiant">
+					<div id="accordion11" class="panel-group">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion11"
+										href="#show_etu">&Eacute;tudiant</a>
+								</h3>
+							</div>
+							<div id="show_etu" class="panel-collapse collapse">
+								<div id="accordion">
+									<a data-toggle="collapse" data-parent="#accordion"
+										href="#identifiant">Gestion de compte</a>
+								</div>
+								<div id="identifiant" class="panel-collapse collapse">
+
+									<div class="repsecond">
+										<div class="question" id="et_validation">
+											<span class="help-block">Comment faire pour valider mon compte ENT</span>
+										</div>
+										<div class="reponse">
+											<p>Tout d'abord munissez-vous de votre identifiant ainsi que de votre code INE. 
+											Ensuite rendez-vous sur l'ENT de l'Université (<a href="https://monupv.univ-montp3.fr">https://monupv.univ-montp3.fr</a>),
+											puis cliquez sur "Nouveau à l'université ? Validez votre compte" et remplissez le formulaire de
+											validation avec les informations demandées (voir copie d'écran ci-dessous). </p>							
+											<img src="assets/images/faq/validation.png" class="img-responsive" alt="Validation compte" />
+										</div>
+										<div class="question" id="et_identifiant">
+											<span class="help-block">Je ne connais pas mes identifiants (identifiant, code ine) me permettant de valider mon compte</span>
+										</div>
+										<div class="reponse">
+											<p>Votre identifiant et votre code ine se situent sur votre	carte étudiant (voir copie d'écran ci-dessous) et/ou sur votre certificat 
+											de scolarité. L'identifiant est généralement composé de la première lettre de votre prénom ainsi que des 7 premières lettres de votre nom 
+											et éventuellement completé d'un chiffre. Le code INE est un code composé de 11 caractères (chiffre et lettre). </p>
+											<img src="assets/images/faq/carte_etu.png" class="img-responsive" alt="Identifiant" />
+										</div>
+
+										<div class="question" id="et_choix_mdp">
+											<span class="help-block">Comment choisir un mot de passe ?</span>
+										</div>
+										<div class="reponse">
+											<p>Pour accéder aux différents services informatiques et réseaux de l'Université, il vous faut un compte informatique
+												protégé par un mot de passe. Ce mot de passe protège la confidentialité de vos informations, il est donc important
+												que ce dernier soit le plus sûr possible.</p>
+											<p>Dans ce but, un contrôle automatique est effectué lors de la validation de votre compte afin de vérifier la complexité du mot de passe
+											choisi. Ce mot de passe est ainsi rejeté s'il est trop simple à retrouver.</p>
+											<p>Une coche verte, après la première saisie du mot de passe indiquera que ce dernier est assez complexe.</p>
+											<img src="assets/images/faq/motdepasse.png" class="img-responsive" alt="Mot de passe" />
+											<p>	Un bon mot de passe doit être constitué d'au moins 6 caractères et n'être en aucun cas issu d'un dictionnaire
+												français ou étranger.<br /> Vous pouvez utiliser les lettres de l'alphabet (minuscules et majuscules), les
+												chiffres ou les signes de ponctuation. <span class="rouge">A éviter : les mots de passe en rapport avec votre vie privée
+												(nom de famille, numéro de téléphone, date de naissance...)	ou professionnelle (nom du diplôme préparé), ainsi que
+												toutes les suites logiques : azerty, qwerty, abcdefgh, 1234567</span></p>
+											<p>Quelques exemples :</p>
+											<ul>
+												<li>les premières lettres d'une phrase connue : « alCFmeaP » pour « à la claire fontaine m'en allant promener»</li>
+												<li>un mot écrit phonétiquement : « c-durAfer » pour «C'est très dur à faire »</li>
+											</ul>
+										</div>
+
+										<div class="question" id="et_pb_validation">
+											<span class="help-block">J'ai une erreur lors de la validation de mon compte</span>
+										</div>
+										<div class="reponse">
+											<p>La validation de votre compte ne pourra se faire qu'au plus tôt le lendemain de votre inscription administrative.</p>
+											<ul>
+												<li>Dans un premier temps, vérifiez que vous ayez bien saisi le code INE, en particulier soyez attentif avec les
+													lettres I , L et le chiffre 1 que l'on peut confondre.</li>
+												<li>Dans un deuxième temps, vérifiez que vous ayez le bon identifiant.</li>
+												<li>Le mot de passe doit être complexe et ne doit pas contenir un mot du dictionnaire (pour plus d'informations
+													sur le choix d'un mot de passe, consultez la rubrique 
+													<a href='#' data-toggle="modal" data-target="#myModal"><b>l'aide à la création de mot de passe</b></a>.
+												</li>
+											</ul>
+											<p>Si la validation ne fonctionne toujours pas, rendez-vous au <a href="https://www.univ-montp3.fr/fr/service/accès-aux-salles-informatiques" target="_blank">pavillon
+											informatique</a> entre 09h30 et 15h30 de septembre à octobre ou contactez-nous sur <a href="mailto:sos-ent@univ-montp3.fr">
+											sos-ent@univ-montp3.fr</a> <span class="rouge"> en nous précisant votre identifiant, votre code INE ainsi que votre numéro d'étudiant, toute demande sans ces informations ne sera pas
+												traitée.</span> </p>
+										</div>
+
+										<div class="question" id="et_cpte">
+											<span class="help-block">L'authentification à mon compte échoue</span>
+										</div>
+										<div class="reponse">
+											<p>La première chose à faire dans ce cas est de changer votre mot de passe (voir "J'ai oublié mon mot de passe").</p>
+											<p> Si l'authentification échoue de nouveau, rendez-vous au <a
+												href="https://www.univ-montp3.fr/fr/service/accès-aux-salles-informatiques" target="_blank">pavillon
+												informatique</a> entre 9h30 et 15h30 de septembre à octobre muni de votre carte étudiant ou contactez-nous à l'adresse
+												suivante <a href="mailto:sos-ent@univ-montp3.fr">sos-ent@univ-montp3.fr</a>
+												<span class="rouge">en nous précisant votre identifiant, votre code INE ainsi que votre numéro
+												d'étudiant, toute demande sans ces informations ne sera pas	traitée.</span> </p>
+										</div>
+
+										<div class="question" id="et_perte_mdp">
+											<span class="help-block">J'ai oublié mon mot de passe</span>
+										</div>
+										<div class="reponse">
+											<p>Pour tout mot de passe oublié, veuillez vous rendre sur l'ENT de l'université (<a href="https://monupv.univ-montp3.fr">https://monupv.univ-montp3.fr</a>),
+											puis cliquez sur "mot de passe oublié". </p>
+											<img src="assets/images/faq/passperdu1.png"	class="img-responsive" alt="Perte Mot de passe" />
+											<p>Ensuite selon votre compte : 
+											<ul>
+												<li>Vous allez recevoir un mail sur votre boite personnelle, suivez le lien saisi dans le mail et réinitialisé votre mot de passe
+													<img src="assets/images/faq/passperdumail.png" class="img-responsive" alt="Réponse Mot de passe" />
+												</li>
+												<li>Saisissez la réponse à votre question secrète et votre nouveau mot de passe  
+													<img src="assets/images/faq/passperdu2.png" class="img-responsive" alt="Réponse Mot de passe" />
+												</li>
+											</ul>
+										</div>
+
+
+										<div class="question" id="et_perte_question">
+											<span class="help-block">Je ne me souviens plus de mon mot de passe ainsi que de ma question secrète</span>
+										</div>
+										<div class="reponse">
+											<p>Présentez-vous avec votre carte d'étudiant au point accueil ENT situé au <a href="https://www.univ-montp3.fr/fr/service/accès-aux-salles-informatiques" target="_blank">Pavillon
+												Informatique</a> entre 09h30 et 15h30 de septembre à octobre. Durant les périodes de fermeture du point d'accueil ENT déplacez vous au bureau 117bis ou 117 du bâtiment
+												administratif.</p>
+										</div>
+
+										<div class="question" id="et_scola">
+											<span class="help-block">Je suis un(e) ancien(ne) étudiant(e) et j'aurai besoin d'accéder à l'ENT pour 	récupérer mes attestations et relevés de notes</span>
+										</div>
+										<div class="reponse">
+											<p>En tant qu'ancien(ne) étudiant(e), votre compte ENT reste actif jusqu'à 3 ans après votre dernière inscription universitaire à Paul Valéry. Vous pourrez ainsi récupérer 
+											certains documents en vous connectant à votre ENT. Pour les étudiants ayant dépassé les 3 ans ou pour ceux n'ayant jamais validé leur compte, vous pouvez récupérer vos
+											attestions et relevés de notes auprès du service de la scolarité de l'Université: <a href="mailto:des_resultats@univ-montp3.fr">des_resultats@univ-montp3.fr</a></p>
+										</div>
+									</div>
+								</div>
+								<div id="accordion1">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#ent">Environnement Numérique de Travail</a>
+								</div>
+								<div id="ent" class="panel-collapse collapse">
+									<div class="repsecond">
+										<div class="question" id="et_firefox">
+											<span class="help-block">J'ai une exception de sécurité avec firefox</span>
+										</div>
+										<div class="reponse">
+											<p>Si vous utilisez firefox comme navigateur et que vous obtenez une page de ce style en vous connectant à l'ENT.</p>
+											<img src="assets/images/faq/exception.PNG" class="img-responsive" alt="exception sécurité" /> 
+											<p>Vous pouvez contourner l'exception en suivant la documentation fournie par 
+												<a href="http://support.mozilla.org/fr/kb/message-erreur-connexion-pas-certifiee#w_contourner-lavertissement" target="_blank">ce lien</a> </p>
+										</div>
+										<div class="question" id="et_popup">
+											<span class="help-block">Personnaliser la page d'accueil de mon ENT</span>
+										</div>
+										<div class="reponse">
+											Seule la page d'accueil de l'ENT est personnalisable. Vous avez la possibilit&eacute; de : 
+											<ul>
+												<li>Rajouter un service dans votre page d'accueil. Pour cela, cliquez sur Options => Ajouter &agrave; mon accueil. <img
+												src="assets/images/faq/ajoutAccueil.png" class="img-responsive" alt="ajouter page d'accueil" />  
+												Attention, le service va se rajouter en bas de la première colonne votre accueil.<img src="assets/images/faq/accueil.png" class="img-responsive" alt="page d'accueil" /> </li>
+											</ul>
+											<ul>
+												<li>D&eacute;placer un service sur votre accueil. Pour cela, cliquez sur Options => D&eacute;placer cette portlet. Ensuite, cliquez sur la croix et faire un glisser d&eacute;placer.
+												<img class="col-sm-6" src="assets/images/faq/deplacerService.png" class="img-responsive" alt="d&eacute;placer le service" />  
+												<img class="col-sm-6" src="assets/images/faq/deplacementService.png" class="img-responsive" alt="d&eacute;placement du service" />  </li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div id="accordion4">
+									<a data-toggle="collapse" data-parent="#accordion4" href="#msg">Messagerie</a>
+								</div>
+								<div id="msg" class="panel-collapse collapse">
+									<div class="repsecond">
+										<div class="question" id="et_mail">
+											<span class="help-block">Comment accéder à sa messagerie</span>
+										</div>
+										<div class="reponse">
+											<p>Afin de connaître les fonctionnalités et la procédure d'accès liées à la messagerie, connectez-vous au Catalogue des <a href="https://www.univ-montp3.fr/fr/service/messagerie">Services</a> </p>
+											<p><a href="webmail.html" class="btn btn-primary">Accéder au webmail universitaire</a></p>
+										</div>
+										<div class="question" id="et_redirect">
+											<span class="help-block">Je souhaite rediriger mes mails vers ma messagerie personnelle </span>
+										</div>
+										<div class="reponse">
+											<p>La rédirection de mail est actuellement indisponible</p>
+										</div>
+										<div class="question" id="et_mess">
+											<span class="help-block">Je ne reçois pas mes messages</span>
+										</div>
+										<div class="reponse">
+											<p>Attention au classement des mails, ils sont parfois classés par ordre chronologique, donc les derniers mails arrivés sont à la fin.</p>
+											 <p>Si vous ne recevez toujours pas vos mails, <a href="mailto:sos-ent@univ-montp3.fr">contactez-nous</a>.
+											<span class="rouge"> ( Merci de nous indiquer votre identifiant, votre code INE ainsi que votre numéro d'étudiant, toute demande sans ces informations ne sera pas
+												traitée )</span></p>
+										</div>
+									</div>
+								</div>
+								<div id="accordion5">
+									<a data-toggle="collapse" data-parent="#accordion5"
+										href="#wifi">WIFI</a>
+								</div>
+								<div id="wifi" class="panel-collapse collapse">
+									<div class="repsecond">
+										<div class="question" id="et_wifi">
+											<span class="help-block">Comment faire pour accéder au WIFI de l'Université</span>
+										</div>
+										<div class="reponse">
+											<p><a href="https://www.univ-montp3.fr/fr/service/acc%C3%A8s-r%C3%A9seau-wifi" target="_blank">Consultez la fiche 'Accès réseau, Wifi - Étudiant' du Catalogue des Services</a></p>
+										</div>
+									</div>
+								</div>
+								<div id="accordion2">
+									<a data-toggle="collapse" data-parent="#accordion2" href="#adm">Inscription/Administratif</a>
+								</div>
+								<div id="adm" class="panel-collapse collapse">
+									<div class="repsecond">
+										<div class="question" id="et_adm">
+											<span class="help-block">J'ai un problème administratif (changement d'adresse, récupération d'attestations, ...)</span>
+										</div>
+										<div class="reponse"> 
+											<p>Pour toutes questions liées à votre inscription administrative : <a  href="mailto:des_ia@univ-montp3.fr ">des_ia@univ-montp3.fr</a></p>
+											<p>Pour toutes questions liées à vos attestations de résultats : <a  href="mailto:des_resultats@univ-montp3.fr ">des_resultats@univ-montp3.fr</a></p>
+										</div>
+										<div class="question" id="et_moodle">
+											<span class="help-block">J'ai un problème pour accéder à ma plateforme de cours en ligne (moodle)</span>
+										</div>
+										<div class="reponse">
+											<p>Pour accéder aux cours en ligne, connectez vous à l'ENT cliquez sur 'Cours en ligne' dans l'onglet "Outils Pédagogiques'.</p>
+											<p>Si vous rencontrez un problème, contactez <a href="mailto:sos-moodle@univ-montp3.fr">sos-moodle@univ-montp3.fr</a></p>
+											<p><a href="https://www.univ-montp3.fr/fr/service/acc%C3%A8s-%C3%A0-mes-cours-en-ligne-moodle" target="_blank">Consultez la fiche 'Accès à mes cours en ligne - MOODLE' du Catalogue des Services</a></p>
+										</div>
+										<div class="question" id="et_insc_adm">
+											<span class="help-block">J'ai un problème pour finaliser mon inscription administrative ou pour prendre un rendez-vous</span>
+										</div>
+										<div class="reponse">
+											<p>Pour toutes questions liées à votre inscription administrative : <a  href="mailto:des_ia@univ-montp3.fr ">des_ia@univ-montp3.fr</a></p>
+											<p>Pour toutes questions liées à la prise de rendez-vous: <a  href="mailto:des_rdv@univ-montp3.fr ">des_rdv@univ-montp3.fr</a></p>
+										</div>
+										<div class="question" id="et_mgroup">
+											<span class="help-block">J'ai un problème pour m'inscrire dans un groupe de langue (mgroup)</span>
+										</div>
+										<div class="reponse">
+											<p>Pour accéder aux groupes de langue, connectez vous à l'ENT, dans l'onglet "Inscriptions" cliquez sur "Choix d'un groupe".
+											Si vous n'arrivez pas à vous inscrire, contactez votre secrétariat pédagogique.</p>
+										</div>
+										<div class="question" id="et_ufr5">
+											<span class="help-block">J'ai un problème pour m'inscrire dans un groupe de psychologie ou de sociologie</span>
+										</div>
+										<div class="reponse">
+											<p>Pour vous inscrire accédez à l'url suivante <a href="https://ufr5.www.univ-montp3.fr/" target="_blank">https://ufr5.www.univ-montp3.fr/</a>. </p>
+											<p>Si vous rencontrez des difficultés, contactez : <a href="mailto:pole.technique.ufr5@univ-montp3.fr">pole.technique.ufr5@univ-montp3.fr</a> </p>
+										</div>
+										<div class="question" id="et_c2i">
+											<span class="help-block">J'ai un problème pour m'inscrire aux groupes de TD informatique (C2I)</span>
+										</div>
+										<div class="reponse">
+											<p>Contactez le : <a href="mailto:miap.cours_informatique@univ-montp3.fr">miap.cours_informatique@univ-montp3.fr</a></p>
+										</div>
+									</div>
+								</div>
+								<div id="accordion3">
+									<a data-toggle="collapse" data-parent="#accordion3" href="#cms">Carte Multiservice</a>
+								</div>
+								<div id="cms" class="panel-collapse collapse">
+									<div class="cms">
+										<div class="question" id="et_cms">
+											<span class="help-block">J'ai un problème avec ma carte étudiant</span>
+										</div>
+										<div class="reponse">
+											<p><a href="https://www.univ-montp3.fr/fr/service/carte-multiservice" target="_blank">Consultez la fiche 'Carte multiservice' du Catalogue des Services</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="personnel">
+					<div id="accordion12" class="panel-group">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion12"
+										href="#show_pers">Personnel</a>
+								</h3>
+							</div>
+							<div id="show_pers" class="panel-collapse collapse">
+								<div id="accordion7">
+									<a data-toggle="collapse" data-parent="#accordion7"
+										href="#identifiantpers">Gestion de compte</a>
+								</div>
+								<div id="identifiantpers" class="panel-collapse collapse">
+									<div class="repsecond">
+										<div class="question" id="p_validation">
+											<span class="help-block">Comment faire
+												pour valider mon compte ENT</span>
+										</div>
+										<div class="reponse">
+											<p>Tout d'abord, vous devez contacter votre interlocuteur à la DHR pour obtenir votre sésame nécéssaire pour valider votre compte.</p>
+											<p> Ensuite rendez-vous sur l'ENT de l'Université (<a href="https://monupv.univ-montp3.fr">https://monupv.univ-montp3.fr</a>),
+											puis cliquez sur "Nouveau à l'université ? Validez votre compte" et remplissez le formulaire de validation avec les informations demandées 
+											(voir copie d'écran ci-dessous). </p>							
+											<img src="assets/images/faq/validation.png" class="img-responsive" alt="Validation compte" />
+										</div>
+
+										<div class="question" id="p_choix_mdp">
+											<span class="help-block">Comment choisir un mot de 	passe ?</span>
+										</div>
+										<div class="reponse">
+										<p>Pour accéder aux différents services informatiques et réseaux de l'Université, il vous faut un compte informatique
+												protégé par un mot de passe. Ce mot de passe protège la confidentialité de vos informations, il est donc important
+												que ce dernier soit le plus sûr possible.</p>
+											<p>Dans ce but, un contrôle automatique est effectué lors de la validation de votre compte afin de vérifier la complexité du mot de passe
+											choisi. Ce mot de passe est ainsi rejeté s'il est trop simple à retrouver.</p>
+											<p>Une coche verte, après la première saisie du mot de passe indiquera que ce dernier est assez complexe.</p>
+											<img src="assets/images/faq/motdepasse.png" class="img-responsive" alt="Mot de passe" />
+											<p>	Un bon mot de passe doit être constitué d'au moins 6 caractères et n'être en aucun cas issu d'un dictionnaire
+												français ou étranger.<br /> Vous pouvez utiliser les lettres de l'alphabet (minuscules et majuscules), les
+												chiffres ou les signes de ponctuation. <span class="rouge">A éviter : les mots de passe en rapport avec votre vie privée
+												(nom de famille, numéro de téléphone, date de naissance...)	ou professionnelle (nom du diplôme préparé), ainsi que
+												toutes les suites logiques : azerty, qwerty, abcdefgh, 1234567</span></p>
+											<p>Quelques exemples :</p>
+											<ul>
+												<li>les premières lettres d'une phrase connue : « alCFmeaP » pour « à la claire fontaine m'en allant promener»</li>
+												<li>un mot écrit phonétiquement : « c-durAfer » pour «C'est très dur à faire »</li>
+											</ul>
+										</div>
+										<div class="question" id="p_pb_validation">
+											<span class="help-block">J'ai une erreur lors de la validation de mon compte</span>
+										</div>
+										<div class="reponse">
+											<ul>
+												<li>Vérifiez que vous avez bien saisi votre mot de passe provisoire. Essayez sinon de saisir votre numéro de sécurité sociale comme mot de passe provisoire.</li>
+												<li>Vérifiez que vous avez le bon identifiant</li>
+												<li>Le mot de passe doit être complexe et ne doit pas contenir un mot du dictionnaire (pour plus d'informations
+													sur le choix d'un mot de passe, consultez la rubrique 
+													<a href='#' data-toggle="modal" data-target="#myModal"><b>l'aide à la création de mot de passe</b></a>.
+												</li>
+											</ul>
+											<p>Si la validation ne fonctionne toujours pas, contactez-nous sur <a href="mailto:sos-ent@univ-montp3.fr">sos-ent@univ-montp3.fr</a>
+											<span class="rouge"> <strong>en nous précisant votre identifiant.</strong></span> </p>
+										</div>
+										<div class="question" id="p_perte_mdp">
+											<span class="help-block">L'authentification à mon compte échoue</span>
+										</div>
+										<div class="reponse">
+											<p>La première chose à faire dans ce cas est de changer votre mot de passe (voir "J'ai oublié mon mot de passe"). Si l'authentification échoue encore, 
+											contactez-nous à l'adresse suivante <a href="mailto:sos-ent@univ-montp3.fr">sos-ent@univ-montp3.fr</a>
+											<span class="rouge"><strong>en nous précisant votre identifiant.</strong></span> </p>
+										</div>
+										<div class="question" id="p_perte_question">
+											<span class="help-block">J'ai oublié mon mot de passe</span>
+										</div>
+										<div class="reponse">
+											<p>Pour tout mot de passe oublié, veuillez vous rendre sur l'ENT de l'université (<a href="https://monupv.univ-montp3.fr">https://monupv.univ-montp3.fr</a>),
+											puis cliquez sur "mot de passe oublié". </p>
+											<img src="assets/images/faq/passperdu1.png"	class="img-responsive" alt="Perte Mot de passe" />
+											<p>Ensuite selon votre compte : 
+											<ul>
+												<li>Vous allez recevoir un mail sur votre boite personnelle, suivez le lien saisi dans le mail et réinitialisé votre mot de passe
+													<img src="assets/images/faq/passperdumail.png" class="img-responsive" alt="Réponse Mot de passe" />
+												</li>
+												<li>Saisissez la réponse à votre question secrète et votre nouveau mot de passe  
+													<img src="assets/images/faq/passperdu2.png" class="img-responsive" alt="Réponse Mot de passe" />
+												</li>
+											</ul>
+										</div>
+										<div class="question" id="p_annuaire">
+											<span class="help-block">Annuaire institutionnel</span>
+										</div>
+										<div class="reponse">
+											<a href="https://www.univ-montp3.fr/sites/default/files/procedure_publications_informations_professionnelles_annuaire_institutionnel.pdf">Procédure de publications des informations professionnelles dans l'annuaire institutionnel</a>
+										</div>
+									</div>
+								</div>
+								<div id="accordion15">
+									<a data-toggle="collapse" data-parent="#accordion15" href="#ent_pers">Environnement Numérique de Travail</a>
+								</div>
+								<div id="ent_pers" class="panel-collapse collapse">
+									<div class="repsecond">
+										<div class="question" id="et_firefox_pers">
+											<span class="help-block">J'ai une exception de sécurité avec firefox</span>
+										</div>
+										<div class="reponse">
+											<p>Si vous utilisez firefox comme navigateur et que vous obtenez une page de ce style en vous connectant à l'ENT </p>
+												<img src="assets/images/faq/exception.PNG" class="img-responsive" alt="exception sécurité" /> 
+												<p>Vous pouvez contourner l'exception en suivant la documentation fournie par 
+												<a href="http://support.mozilla.org/fr/kb/message-erreur-connexion-pas-certifiee#w_contourner-lavertissement" target="_blank">ce lien</a> </p>
+										</div>
+										<div class="question" id="et_popup_pers">
+											<span class="help-block">Personnaliser la page d'accueil de mon ENT</span>
+										</div>
+										<div class="reponse">
+											Seule la page d'accueil de l'ENT est personnalisable. Vous avez la possibilit&eacute; de : 
+											<ul>
+												<li>Rajouter un service dans votre page d'accueil. Pour cela, cliquez sur Options => Ajouter &agrave; mon accueil. 
+												<img src="assets/images/faq/ajoutAccueil.png" class="img-responsive" alt="ajouter page d'accueil" />  
+												Attention, le service va se rajouter en bas de la première colonne votre accueil.<img src="assets/images/faq/accueil.png" class="img-responsive" alt="page d'accueil" /> </li>
+											</ul>
+											<ul>
+												<li>D&eacute;placer un service sur votre accueil. Pour cela, cliquez sur Options => D&eacute;placer cette portlet. Ensuite, cliquez sur la croix et faire un glisser d&eacute;placer.
+												<img class="col-sm-6" src="assets/images/faq/deplacerService.png" class="img-responsive" alt="d&eacute;placer le service" />  
+												<img class="col-sm-6" src="assets/images/faq/deplacementService.png" class="img-responsive" alt="d&eacute;placement du service" />  </li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div id="accordion8">
+									<a data-toggle="collapse" data-parent="#accordion8"
+										href="#mailpers">Messagerie</a>
+								</div>
+								<div id="mailpers" class="panel-collapse collapse">
+									<div class="repsecond">
+										<div class="question" id="p_mess">
+											<span class="help-block">Je ne sais pas comment faire pour accéder à la messagerie de l'Université</span>
+										</div>
+										<div class="reponse">
+											<p>Tout d'abord connectez-vous à l'ENT. Puis dans l'onglet "Outils collaboratifs" cliquez sur "Messagerie". </p>
+											<p><a href="webmail.html" class="btn btn-primary">Accéder au webmail universitaire</a></p>
+										</div>
+									</div>
+								</div>
+								<div id="accordion9">
+									<a data-toggle="collapse" data-parent="#accordion9"
+										href="#wifipers">WIFI</a>
+								</div>
+								<div id="wifipers" class="panel-collapse collapse">
+									<div class="repsecond">
+										<div class="question" id="p_wifi">
+											<span class="help-block">Comment accéder au WIFI de l'Université</span>
+										</div>
+										<div class="reponse">
+											<p><a href="https://www.univ-montp3.fr/fr/service/acc%C3%A8s-r%C3%A9seau-wifi" target="_blank">Consultez la fiche 'Accès réseau Wifi' du Catalogue des Services</a></p>
+										</div>
+									</div>
+								</div>
+								<div id="accordion10">
+									<a data-toggle="collapse" data-parent="#accordion10" href="#vpnpers">VPN</a> 
+								</div>
+								<div id="vpnpers" class="panel-collapse collapse">
+									<div class="repsecond">
+										<div class="question" id="p_vpn">
+											<span class="help-block">Comment accéder au VPN de l'Université</span>
+										</div>
+										<div class="reponse">
+											<p><a href="https://www.univ-montp3.fr/fr/service/acc%C3%A8s-au-r%C3%A9seau-upvm3-depuis-l%E2%80%99ext%C3%A9rieur-vpn" target="_blank">Consultez la fiche 'Accès au réseau UPVM3 depuis l'extérieur - VPN' du Catalogue des Services</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hidden-xs hidden-sm col-md-8">
+				<div id="accordion11" class="panel-group">
+					<div class="panel panel-default">
+						<div id="reponse_heading" class="panel-heading">
+							<h3 class="panel-title">Qu'est ce que l'Environnement
+								Num&eacute;rique de Travail ?</h3>
+						</div>
+						<div class="zonereponse">L'Environnement Numérique de
+							Travail est un portail web destin&eacute; aux acteurs de
+							l'Universit&eacute;. Il rassemble diff&eacute;rents services
+							num&eacute;riques indispensables pour votre parcours
+							universitaire.<br /> Pour acc&eacute;der à votre espace personnel, vous devez valider votre compte.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
